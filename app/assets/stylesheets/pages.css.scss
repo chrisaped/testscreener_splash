@@ -1,0 +1,35 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.container{
+  width: 800px;
+  margin:0 auto;  
+}
+
+h1{
+  font-weight: 300;
+  font-size: 3.5em;
+  border-top: solid white 1px;
+  border-bottom: solid white 1px;
+  padding: 15px;  
+}
+
+h2{
+  font-weight: 300;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+.coming-soon{
+  font-weight: 100;
+}
