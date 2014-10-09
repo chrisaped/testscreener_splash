@@ -24,5 +24,10 @@ $(document).ready(function() {
       var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
       $('.colors').animate( { color: hue }, 1000, spectrum);
    }
+
+  // $( "#customer_submit" ).submit(function() {
+  //   $( ".form-container" ).hide( "slow", function() {
+  //   });
+  // });   
  
 });

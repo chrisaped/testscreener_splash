@@ -4,3 +4,9 @@
   h1.colors TEST SCREENER
 
   h2 the secure screening room for independent films
+
+  .form-container
+    p.updated Stay updated
+    = simple_form_for @customer do |f| 
+      = f.input :email, label: false, placeholder: "Your email"
+      = f.button :submit, "Submit", id: 'customer_submit'
